@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BigData:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BigData_jar</output-path>
+    <root id="archive" name="BigData.jar">
+      <element id="module-output" name="BigData" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/hadoop-hdfs.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/hadoop-common.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/hadoop-annotations.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/hadoop-core-2.6.0-mr1-cdh5.7.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
