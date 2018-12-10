@@ -137,9 +137,18 @@ public class PageRank extends Configured implements Tool {
 		int res = -1;
 
 		while (depth <= ITERATIONS) {
+			conf = new Configuration();
+			conf.set("recursion.depth", depth + "");
+
 			res = ToolRunner.run(new Configuration(), new PageRank(), newargs);
+			if(depth != 1 || depth != ITERATIONS)
+				deleteDir(new Path(out.toString() + "_" + (depth - 1)));
+
 			newargs[0] = out.toString() + "_" + depth;
-			newargs[1] = out.toString() + "_" + (depth+1);
+			if(depth == ITERATIONS - 1)
+				newargs[1] = out.toString();
+			else
+				newargs[1] = out.toString() + "_" + (depth+1);
 			depth++;
 		}
 
