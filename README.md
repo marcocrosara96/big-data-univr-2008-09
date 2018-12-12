@@ -6,9 +6,10 @@
 <h3>Exercises list</h3>
 
 <blockquote>
-    <p>Ex1</p>
-    <p>Ex2</p>
-    <p>Ex3</p>
-    <p>Ex4</p>
-    <p>Ex5</p>
+    <p>Ex1: World Count</p>
+    <p>Ex2: Pair</p>
+    <p>Ex2b: Stripes</p>
+    <p>Ex3: Order Inversion (Cooccurrence)</p>
+    <p>Ex4: Reduce Side Join</p>
+    <p>Ex5: Page Rank</p>
 </blockquote>
