@@ -1,4 +1,7 @@
--- Count the number of TCP connections per each client IP.
+-- 1.1 Exercise 1 – A “Network” Word Count
+-- Problem statement: count the number of TCP connection per each client IP.
+-- The problem is very similar to the Word Count problem of the MapReduce laboratory: it has been conceived to
+-- familiarize with PIG Latin.
 
 A = LOAD 'input/tstat-sample.txt' using PigStorage(' ') AS (
     ip_c:chararray,

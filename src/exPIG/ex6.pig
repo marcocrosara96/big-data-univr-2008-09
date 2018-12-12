@@ -1,0 +1,3 @@
+-- 1.6 Exercise 6
+-- Problem statement: find the minimum value of client MSS (mss_c).Questions: 1. Can you explain why did you find this
+-- value? 2. What did you learn from this exercise?

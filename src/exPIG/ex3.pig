@@ -1,0 +1,3 @@
+-- 1.3 Exercise 3
+-- Problem statement: for each client IP, compute the sum of uploaded, downloaded and total (up+down) transmitted
+-- bytes.
