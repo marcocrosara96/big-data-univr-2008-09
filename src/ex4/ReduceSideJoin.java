@@ -5,6 +5,7 @@ package ex4;
 
 import ex2.TextPair;
 
+import java.awt.image.AreaAveragingScaleFilter;
 import java.io.IOException;
 import java.util.*;
 
@@ -114,30 +115,29 @@ class RSReduce extends Reducer<TextPair, Text, Text, Text> {
 
 	@Override
 	protected void reduce(TextPair joinAttr, Iterable<Text> values, Context context) throws IOException, InterruptedException {
-		if(joinAttr.getSecond().equals(new Text(TAG_LEFT))){ //CASO VALORI DA CONSERVARE
+		if(joinAttr.getSecond().equals(new Text(TAG_LEFT))){ //CASO LEFT --> VALORI DA CONSERVARE
 			ArrayList<Text> listOfHisFriends = new ArrayList<>();
 			for (Text friendL: values) {
-				listOfHisFriends.add(friendL);
-				context.write(joinAttr.getFirst(), new Text("-->" + friendL));
+				listOfHisFriends.add(new Text(friendL));
 			}
 			leftTable.put(joinAttr.getFirst(), listOfHisFriends);
 		}
 		else{ //CASO RIGHT --> VALORI DI CUI FARE L'EMIT
 			ArrayList<Text> listOfHisFriends = leftTable.get(joinAttr.getFirst());
+
 			for (Text friendR: values) {
 				for (Text friendL: listOfHisFriends) {
-					outL.set(friendL + "\t" + joinAttr.getFirst());
+					outL.set(friendL);
 					outR.set(friendR);
 					context.write(outL, outR);
 				}
 			}
 		}
-		/*for (Text friend: values) {
-			outL.set(joinAttr.getFirst() + "\t" + joinAttr.getSecond());
-			outR.set(friend);
-			context.write(outL, outR);
-		}*/
 	}
+
+	/*public static void logger(Context c, String s) throws IOException, InterruptedException{
+		c.write(new Text(s), new Text(""));
+	}*/
 }
 
 class RSPartitioner extends Partitioner<TextPair, Text> {
@@ -146,13 +146,3 @@ class RSPartitioner extends Partitioner<TextPair, Text> {
 		return (key.getFirst().hashCode() & Integer.MAX_VALUE) % numPartitions;
 	}
 }
-/*1 2
-2 3
-
-1L 2
-2R 1
-2L 3
-3R 2
-
-list = [3]
-1 3*/
