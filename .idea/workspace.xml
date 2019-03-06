@@ -6,17 +6,40 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0abc7baa-8b06-4b9e-91c5-992867b4642e" name="Default Changelist" comment="final project opened">
-      <change afterPath="$PROJECT_DIR$/src/exRedis/notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/PageRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Test/ReaderTest.java" afterDir="false" />
+    <list default="true" id="0abc7baa-8b06-4b9e-91c5-992867b4642e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BigData/exPIG.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exPIG/ex1.pig" beforeDir="false" afterPath="$PROJECT_DIR$/src/exPIG/ex1.pig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exPIG/ex2.pig" beforeDir="false" afterPath="$PROJECT_DIR$/src/exPIG/ex2.pig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exPIG/ex3.pig" beforeDir="false" afterPath="$PROJECT_DIR$/src/exPIG/ex3.pig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exPIG/ex4.pig" beforeDir="false" afterPath="$PROJECT_DIR$/src/exPIG/ex4.pig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exPIG/ex7.pig" beforeDir="false" afterPath="$PROJECT_DIR$/src/exPIG/ex7.pig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/Dictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex1/WordCount$Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex1/WordCount$Reduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex1/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex1/WordCountInMapper$Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex1/WordCountInMapper$Reduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex1/WordCountInMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex1/WordCountInMemory$Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex1/WordCountInMemory$Reduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex1/WordCountInMemory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex2/Pair$PairMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex2/Pair$PairReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex2/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex2/TextPair$Comparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex2/TextPair$FirstComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex2/TextPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex2b/StringToIntAssociativeArrayWritable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex2b/Stripes$StripesMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex2b/Stripes$StripesReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex2b/Stripes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex3/OrderInversion$PairMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex3/OrderInversion$PairReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex3/OrderInversion$PartitionerTextPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex3/OrderInversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex4/RSMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex4/RSPartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex4/RSReduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex4/ReduceSideJoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex5/PageRank$PageRankMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex5/PageRank$PageRankReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BigData/ex5/PageRank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Test/ReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/test/ReaderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,15 +49,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/project/PageRank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-798" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/WordCount.java" />
         <option value="$PROJECT_DIR$/src/exercise_1/WordCount.java" />
         <option value="$PROJECT_DIR$/src/ex1/WordCount_inM.java" />
         <option value="$PROJECT_DIR$/src/ex1/WordCount.java" />
@@ -97,6 +111,17 @@
         <option value="$PROJECT_DIR$/src/project/Scanner.java" />
         <option value="$PROJECT_DIR$/src/project/ReaderTest.java" />
         <option value="$PROJECT_DIR$/src/project/PageRank.java" />
+        <option value="$PROJECT_DIR$/src/project/warc/WARCFileInputFormat.java" />
+        <option value="$PROJECT_DIR$/src/project/warc/WARCFileRecordReader.java" />
+        <option value="$PROJECT_DIR$/src/project/examples/WARCReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/project/examples/mapreduce/ServerTypeMap.java" />
+        <option value="$PROJECT_DIR$/src/project/examples/mapreduce/TagCounterMap.java" />
+        <option value="$PROJECT_DIR$/src/project/examples/mapreduce/WordCounterMap.java" />
+        <option value="$PROJECT_DIR$/src/project/examples/mapreduce/WATServerType.java" />
+        <option value="$PROJECT_DIR$/src/project/examples/mapreduce/WATSampleOutLinks.java" />
+        <option value="$PROJECT_DIR$/src/project/examples/mapreduce/WARCTagCounter.java" />
+        <option value="$PROJECT_DIR$/src/project/examples/mapreduce/WETWordCount.java" />
+        <option value="$PROJECT_DIR$/src/project/examples/S3ReaderTest.java" />
       </list>
     </option>
   </component>
@@ -112,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,13 +167,26 @@
               <item name="BigData" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigData" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigData" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="warc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -158,7 +197,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="bigdata" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551861180255" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551864605095" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -202,11 +241,11 @@
       </method>
     </configuration>
     <configuration name="ReaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="project.Test.ReaderTest" />
+      <option name="MAIN_CLASS_NAME" value="project.test.ReaderTest" />
       <module name="BigData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="project.Test.*" />
+          <option name="PATTERN" value="project.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,17 +304,34 @@
       <workItem from="1545233513338" duration="3568000" />
       <workItem from="1546202533301" duration="1894000" />
       <workItem from="1551769462629" duration="1551000" />
-      <workItem from="1551857664759" duration="1044000" />
+      <workItem from="1551857664759" duration="1181000" />
+      <workItem from="1551862436946" duration="2670000" />
+      <workItem from="1551877963472" duration="129000" />
     </task>
+    <task id="LOCAL-00001" summary="final project opened">
+      <created>1551861217356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551861217356</updated>
+    </task>
+    <task id="LOCAL-00002" summary="final project opened">
+      <created>1551861237123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551861237123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128424000" />
+    <option name="totallyTimeSpent" value="131360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="28" width="1855" height="1052" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17468214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,29 +403,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="final project opened" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/exercise_1/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/exercise_1/WordCount1.java" />
-    <entry file="file://$PROJECT_DIR$/src/exercise_1/WordCount.java" />
-    <entry file="jar://$PROJECT_DIR$/lib/hadoop-common.jar!/org/apache/hadoop/util/Tool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex1/WordCount_inM.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex2/TextWithTextPairs.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex2/TextIntAsPairList.java" />
-    <entry file="file://$PROJECT_DIR$/src/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex2/TextIntPair.java" />
     <entry file="file://$PROJECT_DIR$/src/ex2/TextIntPairArray.java" />
     <entry file="file://$PROJECT_DIR$/src/ex2/Log4jExample.java" />
     <entry file="file://$PROJECT_DIR$/src/ex1/WordCountInMapper.java">
@@ -588,10 +621,48 @@
     <entry file="file://$PROJECT_DIR$/pdf/test" />
     <entry file="file://$PROJECT_DIR$/src/project/red_test/reader.java" />
     <entry file="file://$PROJECT_DIR$/src/project/Scanner.java" />
-    <entry file="file://$PROJECT_DIR$/src/project/Test/ReaderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/project/warc/WARCFileRecordReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/warc/WARCFileInputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/examples/mapreduce/ServerTypeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/examples/mapreduce/TagCounterMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/examples/WARCReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/test/ReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -600,7 +671,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/PageRank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798" />
+        <state relative-caret-position="76">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/examples/mapreduce/WordCounterMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/examples/mapreduce/WATServerType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/examples/mapreduce/WATSampleOutLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/examples/mapreduce/WARCTagCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/examples/mapreduce/WETWordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/examples/S3ReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
