@@ -1,0 +1,79 @@
+PER PROVARE REDIS
+https://try.redis.io/
+
+ESEMPI DI FUNZIONAMENTO
+
+> SET k1 "stringa 1"
+OK
+> GET k1
+"stringa 1"
+> SET k3 "100"
+OK
+> INCR k3
+(integer) 101
+> INCRBY k3 12
+(integer) 113
+> GET k3
+"113"
+
+--- lista di elementi
+
+> LPUSH L1 f1
+(integer) 1
+> LPUSH L1 f2
+(integer) 2
+> LPUSH L1 f3
+(integer) 3
+> LRANGE L1 0 -1
+1) "f3"
+2) "f2"
+3) "f1"
+> LPOP L1
+"f3"
+> LRANGE L1 0 -1
+1) "f2"
+2) "f1"
+
+--- insieme di elementi (posso ordinarla secondo un criterio)
+
+> ZADD z1 10 f1
+(integer) 1
+> ZADD z1 30 f3
+(integer) 1
+> ZADD z1 20 f2
+(integer) 1
+> ZRANGE z1 0 -1
+1) "f1"
+2) "f2"
+3) "f3"
+> ZADD z1 15 f4
+(integer) 1
+> ZRANGE z1 0 -1
+1) "f1"
+2) "f4"
+3) "f2"
+4) "f3"
+> ZRANGE z1 0 -1 WITHSCORES
+1) "f1"
+2) 10.0
+3) "f4"
+4) 15.0
+5) "f2"
+6) 20.0
+7) "f3"
+8) 30.0
+
+--- insieme di elementi
+
+> HSET h1 name Mario
+(integer) 1
+> HSET h1 surname Rossi
+(integer) 1
+> HGETALL h1
+1) "name"
+2) "Mario"
+3) "surname"
+4) "Rossi"
+> HGET h1 name
+"Mario"
+

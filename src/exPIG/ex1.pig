@@ -121,5 +121,5 @@ A = LOAD 'input/tstat-sample.txt' using PigStorage(' ') AS (
 
 B = GROUP A BY ip_c;
 C = FOREACH B GENERATE group, COUNT(A);
-STORE C INTO 'output/ex1';
+STORE C INTO 'output/ex2';
 
